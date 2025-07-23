@@ -3,8 +3,8 @@ import requests
 from datetime import datetime
 
 # --- 🔑 ЗАМЕНИ тези с твоите реални данни ---
-NOTION_TOKEN = "тука-въведи-своя-secret-интеграционен-token"
-DATABASE_ID = "тук-въведи-ID-на-базата-данни-в-Notion"
+NOTION_TOKEN = "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"
+DATABASE_ID = "23991f6c1fb780e69125f56067c200ba"
 
 # --- Headers за API заявката ---
 headers = {
