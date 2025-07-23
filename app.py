@@ -26,10 +26,10 @@ if submit and student_name and lesson_name:
         "parent": { "database_id": DATABASE_ID },
         "properties": {
             "Ученик": {
-                "title": [{
-                    "text": { "content": student_name }
-                }]
-            },
+    "rich_text": [{
+        "text": { "content": student_name }
+    }]
+},
             "Урок": {
                 "rich_text": [{
                     "text": { "content": lesson_name }
